@@ -12,6 +12,10 @@ const Container = styled(Background)`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    @media(max-width: 1050px) {
+        flex-direction: column;
+    }
 `;
 
 export {
