@@ -1,11 +1,20 @@
 import styled from "styled-components"
+import { Background } from "./Background";
 
-export const Container = styled.div`
-    width: 100vw;
-    height: 100vh;
-    background-color: #1e1e1e;
-
+const ContainerCollun = styled(Background)`
     display: flex;
     flex-direction: column;
     align-items: center;
 `;
+
+const Container = styled(Background)`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+`;
+
+export {
+    ContainerCollun,
+    Container
+}
