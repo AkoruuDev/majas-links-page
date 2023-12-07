@@ -16,6 +16,9 @@ export default function Home() {
             <AsideLateral>
                 <span><h1>"Pense no que você quer e deixe que nós fazemos acontecer"</h1></span>
                 <ButtonCta onClick={() => navigate('/contact')}>Contatos</ButtonCta>
+                <span><h1>Rua Lajes, 25 - Parque Jane</h1>
+                <h1>Embu das Artes / SP</h1>
+                <h1>06807-050</h1></span>
             </AsideLateral>
         </Container>
     )
