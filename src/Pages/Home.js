@@ -14,7 +14,7 @@ export default function Home() {
                 <Logo src={logo} alt={''} />
             </div>
             <AsideLateral>
-                <span><h1>"Pense no que você quer e deixe que nós fazemos acontecer"</h1></span>
+                <span><h1>"Think about what do you want to do and let us make come true"</h1></span>
                 <ButtonCta onClick={() => navigate('/contact')}>Contatos</ButtonCta>
                 <span><h1>Rua Lajes, 25 - Parque Jane</h1>
                 <h1>Embu das Artes / SP</h1>

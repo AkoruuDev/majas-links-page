@@ -19,12 +19,6 @@ function Main () {
                         <Title>@majas_peguemonte</Title>
                     </ButtonLinks>
                 </a>
-                {/* <a href="https://instagram.com/brincartbrincando" target="_blank" rel="noreferrer">
-                    <ButtonLinks>
-                        <Ico src={instico} alt="ico" />
-                        <Title>@brincartbrincando</Title>
-                    </ButtonLinks>
-                </a> */}
                 <a href="https://api.whatsapp.com/send/?phone=%2B5511915573651&text=Quero%20saber%20mais%21&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">
                     <ButtonLinks>
                         <Ico src={whattsico} alt="ico" />
@@ -37,12 +31,6 @@ function Main () {
                         <Title>Adam Rodrigues</Title>                    
                     </ButtonLinks>
                 </a>
-                {/* <a href="https://api.whatsapp.com/send/?phone=%2B5511991492907&text=Quero%20saber%20mais%21&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">
-                    <ButtonLinks>
-                        <Ico src={whattsico} alt="ico" />
-                        <Title>Brincart Brincando</Title>               
-                    </ButtonLinks>
-                </a> */}
             </Scroll>
         </ContainerCollun>
     )
